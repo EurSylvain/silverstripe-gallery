@@ -1,17 +1,33 @@
 {
-	"name": "frankmullenger/gallery",
+	"name": "EurSylvain/gallery",
 	"description": "SilverStripe Gallery Module",
 	"type": "silverstripe-module",
 	"keywords": ["silverstripe","image gallery","gallery"],
 	"authors": [
 		{
-			"name": "Frank Mullenger",
-			"email": "frankmullenger@gmail.com"
+			"name": "Sylvain Dubois",
+			"email": "s.dubois@eurofer.be"
 		}
 	],
 	"require": 
 	{
-		"silverstripe/framework": ">=3.1.2",
-		"silverstripe/cms": ">=3.1.2"
-	}
+		"silverstripe/cms": ">=4.3.1"
+	},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1"
+        },
+        "expose": [
+            "images",
+            "css",
+            "javascript"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "EurSylvain\\Gallery\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
 }

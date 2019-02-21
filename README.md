@@ -1,14 +1,17 @@
 # Gallery
 
 ## Maintainer Contact
+Sylvain Dubois
+
+Based on the work of
+
 Frank Mullenger  
 [Contact Me](http://swipestripe.com/support/contact-us)  
 [Blog](http://deadlytechnology.com)  
 [Ecommerce Module](https://swipestripe.com)
 
 ## Requirements
-* SilverStripe framework >3.1.2
-* SilverStripe cms >3.1.2
+* SilverStripe cms >4.3.1
 
 ## Version
 1.1
@@ -26,7 +29,7 @@ You are required to [purchase a licence for Fancybox](http://fancyapps.com/fancy
 ## Installation Instructions
 
 ### Composer
-1. ```composer require frankmullenger/gallery 1.0.*@dev```
+1. ```composer require EurSylvain/gallery 1.0.*@dev```
 2. Visit yoursite.com/dev/build?flush=1 to rebuild the database (you may need to do this twice).
 
 ### Manual

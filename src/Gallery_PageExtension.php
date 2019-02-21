@@ -21,19 +21,7 @@ class Gallery_PageExtension extends DataExtension {
 
 		$fields->addFieldToTab('Root.Gallery', UploadField::create(
 			'Images',
-			'',
-			$this->owner->OrderedImages()
+			'Images'
 		));
-	}
-	
-	public function OrderedImages() {
-
-		list($parentClass, $componentClass, $parentField, $componentField, $table) = $this->owner->many_many('Images');
-
-		return $this->owner->getManyManyComponents(
-			'Images',
-			'',
-			"\"{$table}\".\"SortOrder\" ASC"
-		);
 	}
 }

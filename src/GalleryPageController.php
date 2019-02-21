@@ -2,9 +2,12 @@
 
 namespace EurSylvain\Gallery;
 
-class GalleryPage_Controller extends Page_Controller {
-	
+use SilverStripe\Control\HTTPRequest;
+use SilverStripe\ORM\PaginatedList;
+
+class GalleryPageController extends \PageController {
 	public function init() {
 		parent::init();
-	}
+    	}
 }
+

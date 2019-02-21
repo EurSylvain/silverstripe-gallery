@@ -11,7 +11,7 @@ Frank Mullenger
 [Ecommerce Module](https://swipestripe.com)
 
 ## Requirements
-* SilverStripe cms >4.3.1
+* SilverStripe cms >=4.3.1
 
 ## Version
 1.1

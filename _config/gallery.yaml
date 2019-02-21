@@ -2,12 +2,9 @@
 name: gallery
 ---
 
-SilverStripe\Assets\Image:
-  extensions: 
-    - 'EurSylvain\Gallery\Gallery_ImageExtension'
 EurSylvain\Gallery\GalleryPage:
   extensions: 
     - 'EurSylvain\Gallery\Gallery_PageExtension'
-EurSylvain\Gallery\GalleryPage_Controller:
+EurSylvain\Gallery\GalleryPageController:
   extensions: 
     - 'EurSylvain\Gallery\Fancybox2_ControllerExtension'

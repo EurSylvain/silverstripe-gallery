@@ -13,6 +13,10 @@ class Gallery_PageExtension extends DataExtension {
 		'Images' => Image::class
 	);
 	
+    private static $owns = [
+        'Images'
+    ];
+    
 	public function updateCMSFields(FieldList $fields) {
 
 		$fields->addFieldToTab('Root.Gallery', UploadField::create(
